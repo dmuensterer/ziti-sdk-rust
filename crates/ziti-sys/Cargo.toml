@@ -1,0 +1,10 @@
+[package]
+name = "ziti-sys"
+description = "Raw FFI bindings to the OpenZiti C SDK (zitilib socket API)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+links = "ziti"
+
+[dependencies]
+libc = { workspace = true }

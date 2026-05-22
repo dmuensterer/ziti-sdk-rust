@@ -1,0 +1,16 @@
+[package]
+name = "ziti"
+description = "Safe, typed Rust wrapper for the OpenZiti C SDK"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+ziti-sys = { workspace = true }
+thiserror = { workspace = true }
+libc = { workspace = true }
+tracing = { workspace = true }
+
+[features]
+default = []
+e2e = []

@@ -1,0 +1,7 @@
+/target
+*.swp
+*.swo
+.DS_Store
+docker/identities/*.json
+docker/identities/*.jwt
+docker/.env
